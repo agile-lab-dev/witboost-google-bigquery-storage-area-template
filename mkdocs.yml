@@ -1,0 +1,8 @@
+site_name: "BigQuery Storage Template"
+site_description: "Create a BigQuery Storage Area using this template"
+
+nav:
+  - Template Usage: index.md
+
+plugins:
+  - techdocs-core
