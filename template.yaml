@@ -178,10 +178,11 @@ spec:
                     title: Data Type
                     enum:
                       - STRING
-                      - FLOAT
+                      - INT64
+                      - FLOAT64
                       - NUMERIC
                       - BIGNUMERIC
-                      - BOOLEAN
+                      - BOOL
                       - TIMESTAMP
                       - DATE
                       - TIME

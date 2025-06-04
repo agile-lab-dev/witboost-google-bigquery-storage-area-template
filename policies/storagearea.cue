@@ -11,7 +11,7 @@ let majorVersion = splits[5]
 #Id:               string & =~"^[a-zA-Z0-9:._\\-]+$"
 #ComponentId:      #Id & =~"^urn:dmb:cmp:\(domainId):[a-zA-Z0-9_\\-]+:\(majorVersion):[a-zA-Z0-9_\\-]+$"
 
-#BigQuery_DataType: string & =~"(?i)^(STRING|INTEGER|FLOAT|NUMERIC|BIGNUMERIC|BOOLEAN|TIMESTAMP|DATE|TIME|DATETIME|JSON|GEOGRAPHY|BYTES)$"
+#BigQuery_DataType: string & =~"(?i)^(STRING|INT64|FLOAT64|NUMERIC|BIGNUMERIC|BOOL|TIMESTAMP|DATE|TIME|DATETIME|JSON|GEOGRAPHY|BYTES)$"
 #RoundingMode:      string & =~"(?i)^(ROUNDING_MODE_UNSPECIFIED|ROUND_HALF_AWAY_FROM_ZERO|ROUND_HALF_EVEN)$"
 #OM_Tag: {
 	tagFQN!:      string
